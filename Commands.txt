@@ -1,0 +1,6 @@
+create venv: python -m venv venv
+
+activate venv: venv\Scripts\activate
+
+add to kernel list: python -m ipykernel install --user --name=venv --display-name "Python (venv)"
+
