@@ -4,3 +4,6 @@ activate venv: venv\Scripts\activate
 
 add to kernel list: python -m ipykernel install --user --name=venv --display-name "Python (venv)"
 
+jupyter to html:`
+pip install jupyter
+jupyter nbconvert --to html YourNotebookName.ipynb
